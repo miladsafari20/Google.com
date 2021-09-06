@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    direction: rtl;
+}
+.menu-header{
+    display: flex;
+    justify-content: flex-end;
+}
+.list-item{
+    list-style: none;
+    padding: 1.2rem 0.7rem;
+    display: flex;
+    align-items: center;
+}
+.list-item a{
+    text-decoration: none;
+    color: #3c4043;
+    font-size: 14px;
+}
+.link-text:hover{
+    text-decoration: underline;
+}
+.link-icon{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.link-icon:hover{
+    background-color: #f2f2f2;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.btn-singin{
+    background-color: #1a73e8;
+    color: white !important;
+    padding: 10px 2.3rem;
+    border-radius: 5px;
+}
+.btn-singin:hover{
+    background-color: #2d83f3;
+}
+.parent{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    padding: 1.5rem;
+}
+input{
+    border: 1px solid gainsboro;
+    width: 580px;
+    height: 44px;
+    border-radius: 25px;
+    background-image: url('img/svgexport-2.svg');
+    background-repeat: no-repeat;
+    background-position: 34rem 10px;
+}
+input:hover{
+    box-shadow: 1px 1px 6px 1px gainsboro;
+}
+.btn{
+    margin: 1rem;
+}
+button{
+    background-color: #f8f9fa;
+    padding: 9px 18px;
+    margin: 0 3px;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 6px;
+}
+button:hover{
+   border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.language-text{
+    font-size: 14px;
+}
+.language-text a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+.language-text a:hover{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #f2f2f2;
+    margin-top: 18vh;
+}
+.menu-footer-one{
+    display: flex;
+    padding: 1rem;
+}
+.menu-footer-two{
+    display: flex;
+    padding: 1rem;
+}
+.list-two{
+    list-style: none;
+    padding: 0 1rem;
+}
+.list-two a{
+    text-decoration: none;
+    color: #70757a;
+}
+.list-two a:hover{
+    text-decoration: underline;
+}
